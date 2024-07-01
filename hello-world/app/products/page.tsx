@@ -6,7 +6,7 @@ export default async function Products() {
     const dynamicDate = new Date();
     const dynamicDateString = dynamicDate.toString();
 
-    const res = await fetch(`http://localhost:3000/api/date`, {cache: "no-store"});
+    const res = await fetch(`https://nextjs-hello-pi.vercel.app/api/date`, {cache: "no-store"});
     const data = await res.json();
 
     console.log('executando o fronend')
