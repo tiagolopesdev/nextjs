@@ -2,8 +2,7 @@
 export async function GET() {
     
     console.log('passando pelo backend')
-    return Response.json({ dateString : new Date().toString() },{
-    headers: { 'Cache-Control': 's-maxage=10, stale-while-revalidate' }})
+    return Response.json({ dateString : new Date().toString() })
 
 }
 
