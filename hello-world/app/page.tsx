@@ -7,7 +7,7 @@ export default function Page() {
 
             <ul>
                 <li>
-                    <Link href="/blog">
+                    <Link href="/blog" prefetch={true}>
                         Ir para o blog
                     </Link>
                 </li>
